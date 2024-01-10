@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Harshadeep Gelli</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Harshadeep Gelli</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./holdings/Image.jpg" alt="Harshadeep Gelli profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Harshadeep Gelli</h1>
+        <p class="section__text__p2">Software Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./holdings/CV.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./holdings/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/harshadeep-gelli/'"
+          />
+          <img
+            src="./holdings/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Harshadeep100'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./holdings/Image.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./holdings/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2.5+ years <br />Software Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./holdings/education.jpeg"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p><strong>
+              &#9830	An aspiring, experienced, highly motivated, Software developer, looking for an INTERN / WORKING STUDENT SOFTWARE DEVELOPMENT who has a background in Digital Engineering. By working on a variety of projects, websites, and frameworks. I have created flexible, entrepreneurial, pragmatic, passionate, lean, modern, confident, and agile development methodologies that include anything from quality assurance in technology organizations to improving website functionality while emphasizing reliability. Committed to ongoing learning, I am a quick learner pursuing a Master's degree in Digital Engineering and bring critical thinking, self-motivation, reliability, prioritization, flexibility, customer- focused thinking, analytical skills, innovative skills, strong problem-solving skills, teamwork skills, attention to detail, decision support, analytical thinking skills, creativity, and interpersonal skills. I offer strong communication skills, openness, creative solutions, strategy and planning, commitment, leadership, collaboration skills, innovation, willingness to learn, quick comprehension, teamwork, a methodical approach, and enthusiasm in every project.
+            </p></strong>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./holdings/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Full-Stack Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./holdings/html.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./holdings/css.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./holdings/js.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./holdings/TS.jpeg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./holdings/react.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>REACT.JS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./holdings/sql.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PostgreSQL</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./holdings/nodejs.jpeg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node.JS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./holdings/express.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Express.JS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./holdings/MangoDB.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MangoDB</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./holdings/restapi.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>REST API's</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./holdings/jQuery.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>jQuery</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./holdings/github.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Github</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+      <div class="details-container">
+        <h2 class="experience-sub-title">Languages and Frameworks</h2>
+        <div class="article-container">
+          <article>
+            <img
+              src="./holdings/python.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>PYTHON</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+          <article>
+            <img
+              src="./holdings/java.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>JAVA</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+          <article>
+            <img
+              src="./holdings/c.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>C#</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+          <article>
+            <img
+              src="./holdings/PyTorch.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>PyTorch</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+          <article>
+            <img
+              src="./holdings/tensorflow.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>TensorFlow</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+          <article>
+            <img
+              src="./holdings/docker.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>Docker</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+          <article>
+            <img
+              src="./holdings/Vue.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>Vue.JS</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+          <article>
+            <img
+              src="./holdings/Angular.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>Angular</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+          <article>
+            <img
+              src="./holdings/springboot.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>Spring Boot</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+          <article>
+            <img
+              src="./holdings/matlab.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>MATLAB</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+          <article>
+            <img
+              src="./holdings/Jupyter.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>Jupyter</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+          <article>
+            <img
+              src="./holdings/GOM.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>GOM</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+
+      <img
+        src="./holdings/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./holdings/wb.jpeg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Special Project</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='project1.html'"
+              >
+                Details
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./holdings/sd.jpeg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Research Assistant Project</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='project2.html'"
+              >
+                Details
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./holdings/ML.jpeg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Deep Learning Project</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='project3.html'"
+              >
+                Details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./holdings/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./holdings/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">gelliharshadeep@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./holdings/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Harshadeep Gelli. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
